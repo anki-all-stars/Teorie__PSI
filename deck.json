@@ -1,0 +1,456 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "a32ba97c-7396-11eb-8ebc-38d5479d0148",
+    "deck_config_uuid": "51fd0716-67e9-11eb-a855-38d5479d0148",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoplay": true,
+            "crowdanki_uuid": "51fd0716-67e9-11eb-a855-38d5479d0148",
+            "currentValue": 120,
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxLife": 120,
+            "maxTaken": 60,
+            "name": "[Intense] English C1",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 50,
+                "separate": true
+            },
+            "recover": 5,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 50
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "Isa4AaJm7cZ78h6AnVnaQhIyMxM9Q-BlJlKZ2EGaPdo.original.fullsize.png",
+        "paste-006047b03830c375dd9ed177432c2a50997bb056.jpg",
+        "paste-0d68118a5afe0d641c402ae47519bc238c39da9f.jpg",
+        "paste-303606008db6ffd914db43f45a3f8dcab4823cc0.jpg",
+        "paste-35957bff68def88904b6547606cfa6ad5234eb83.jpg",
+        "paste-3bc38dd94610bd03ff683efa0249378b99517b03.jpg",
+        "paste-8dc5a83f81a6d6b05a3b564ab36a708ec5946a37.jpg",
+        "paste-8e5de0895f29ad8ac0c5814e92518b182f73f803.jpg",
+        "paste-ab065705de9b427fa7ffd567cfc378c411452f55.jpg"
+    ],
+    "name": "Teorie::PSI",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n color: black;\n text-align: center;\n background-color: white;\n}\n\n.solution {\n text-align: left;\n}",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Question",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Solution",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "name": "Source",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "CVUT",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "osy-3-tyden"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{Question}}\n\n<hr id=answer>\n\n<div style=\"text-align: center;\">\n    <div style=\"display: inline-block; text-align: left;\">\n\t\t{{Solution}}\n    </div>\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Question}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Druhy přepojování sítě",
+                "Okruhy - sestavená trasa<div>vs<br><div>Pakety - balíček odesílaných dat</div></div>",
+                ""
+            ],
+            "guid": "CCC~2.I5xM",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Druhy architektury komunikace",
+                "- Peer to peer<div>- Client-server</div>",
+                ""
+            ],
+            "guid": "h(]`MaAeYW",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Taxanomie sítí dle rozhlehlosti",
+                "Personal Area Network - PAN ~~ 1m<div>Local Area Network - LAN ~~ 100m</div><div>Metropolitan Area Network - MAN ~~ 10 km</div><div>Wide Area Network - WAN ~~ 1000km</div>",
+                ""
+            ],
+            "guid": "z8=IMt&~`~",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj topologii",
+                "Způsob uspořádání propojení mezi stanicemi v síti, nejvhodnější topologie souvisí s kontkrétním použitím",
+                ""
+            ],
+            "guid": "jp|I*!ZOdO",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak vypadá topologie \"Ring\"?",
+                "<img src=\"paste-ab065705de9b427fa7ffd567cfc378c411452f55.jpg\">",
+                ""
+            ],
+            "guid": "v+^U~GY;X[",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak vypadá topologie \"Mesh\"?",
+                "<img src=\"paste-006047b03830c375dd9ed177432c2a50997bb056.jpg\">",
+                ""
+            ],
+            "guid": "os>aFM+vXt",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak vypadá topologie \"Star\"?",
+                "<img src=\"paste-3bc38dd94610bd03ff683efa0249378b99517b03.jpg\">",
+                ""
+            ],
+            "guid": "EZMHywqx7",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak vypadá topologie \"Fully Connected\"?",
+                "<img src=\"paste-303606008db6ffd914db43f45a3f8dcab4823cc0.jpg\">",
+                ""
+            ],
+            "guid": "qJjb7J=vfz",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak vypadá topologie \"Line\"?",
+                "<img src=\"paste-8dc5a83f81a6d6b05a3b564ab36a708ec5946a37.jpg\">",
+                ""
+            ],
+            "guid": "oZ`j~K5ZY_",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak vypadá topologie \"Tree\"?",
+                "<img src=\"paste-0d68118a5afe0d641c402ae47519bc238c39da9f.jpg\">",
+                ""
+            ],
+            "guid": "QP]%7?xPcE",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak vypadá topologie \"Bus\"?",
+                "<img src=\"paste-8e5de0895f29ad8ac0c5814e92518b182f73f803.jpg\">",
+                ""
+            ],
+            "guid": "yzL_3sJ5=H",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaké jsou druhy linek v počítačových sítích?",
+                "<img src=\"Isa4AaJm7cZ78h6AnVnaQhIyMxM9Q-BlJlKZ2EGaPdo.original.fullsize.png\">",
+                ""
+            ],
+            "guid": "y.lct!)eg1",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj unicast komunikaci",
+                "Komunikace mezi dvěma účastníky v síti, identifikovány adresami",
+                "musí nutně být cíl zvolen? ( Např DHCP )"
+            ],
+            "guid": "gr8ob})qo7",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj broadcast komunikaci",
+                "Komunikace vyslána za účelem přijetí každým účastníkem v sítí",
+                ""
+            ],
+            "guid": "BV^)5&^Gw;",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj multicast komunikaci",
+                "Komunikace, kde pakety jsou adresovány více než jednomu zařízení",
+                ""
+            ],
+            "guid": "e1|=mkb[/=",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj anycast komunikaci",
+                "Komunikace komunikace zařízení s více možnými destinacemi",
+                ""
+            ],
+            "guid": "LjgR?9X`a$",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš OSI vrstvy",
+                "Aplikační<div>Prezentační</div><div>Relační</div><div>Transportní</div><div>Síťová</div><div>Spojová</div><div>Fyzická</div>",
+                ""
+            ],
+            "guid": "jxfd|ihmHp",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kolik bitů má IPv4",
+                "32 bitů, 4 byty",
+                ""
+            ],
+            "guid": "h*i1ffyn>9",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj síťovou masku",
+                "Síťová maska je bitová maska o stejné velikosti jako IP adresa, která vujadřuje jakou část IP adresy mají všichni členové dané sítě společnou",
+                ""
+            ],
+            "guid": "p~1qsD`Vs@",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj prefixovou notaci IPv4",
+                "X.X.X.X/Y se nazývá prefixová notace IP adresy, právě když X.X.X.X je IP adresa a Y je přesně počet jedniček zleva v bitové masce.&nbsp;<div><br></div><div><img src=\"paste-35957bff68def88904b6547606cfa6ad5234eb83.jpg\"><br></div>",
+                ""
+            ],
+            "guid": "bgl;IuPnD_",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj adresu sítě",
+                "Adresa sítě je označení všech IP adres, které patří do daného rozsahu. Lze ji vypočítat pomocí ANDu masky a libovolné adresy v síti.<div><br></div><div>Zároveň je to také nejnižší adresa v rozsahu.</div>",
+                ""
+            ],
+            "guid": "h<%db<`^T)",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj broadcast IPv4 adresu v daném rozsahu",
+                "Broadcase je nejvyšší adresa v daném rozsahu",
+                ""
+            ],
+            "guid": "E_o^Qm+;;^",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jakou adresu typicky má brána v daném rozsahu?",
+                "Brána má typicky ( nikoli povinně ) druhou nejvyšší či nejnižší adresy v daném rozsahu",
+                ""
+            ],
+            "guid": "Q~-I{/|+}a",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jakým způsobem vypočítáme počet možných stanic v závislosti na délce prefixu L masky?",
+                "Pro nalezení minimálního&nbsp;\\(N\\), musí platit, že&nbsp;\\( K &lt;= 2^N \\)<br>Nechť&nbsp;\\(L = 32 - K\\)<div>Počet využitelných stanic v síti je&nbsp;\\(2^N - 3\\) (odebrána broadcast, adresa sítě, brána)</div>",
+                ""
+            ],
+            "guid": "w0DgH6=j~<",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-1-tyden"
+            ]
+        }
+    ]
+}
