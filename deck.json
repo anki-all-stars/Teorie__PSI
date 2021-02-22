@@ -38,7 +38,7 @@
                     0
                 ],
                 "order": 0,
-                "perDay": 50,
+                "perDay": 60,
                 "separate": true
             },
             "recover": 5,
@@ -63,20 +63,26 @@
     "media_files": [
         "Isa4AaJm7cZ78h6AnVnaQhIyMxM9Q-BlJlKZ2EGaPdo.original.fullsize.png",
         "paste-006047b03830c375dd9ed177432c2a50997bb056.jpg",
+        "paste-096d697a06ef722129d5ae6bc9d38398ea89b52f.jpg",
         "paste-0d68118a5afe0d641c402ae47519bc238c39da9f.jpg",
         "paste-303606008db6ffd914db43f45a3f8dcab4823cc0.jpg",
         "paste-3401187d23fa8434d15fa4f2c54e4e1d9fbcbd4e.jpg",
         "paste-35957bff68def88904b6547606cfa6ad5234eb83.jpg",
         "paste-3bc38dd94610bd03ff683efa0249378b99517b03.jpg",
+        "paste-4144de99a27b67cbcede20ef2db62a235a5bdc85.jpg",
+        "paste-47dfa29ffb15d165065d49a734ed823e18f0a5b7.jpg",
         "paste-7199091a72e7c6b8d0d80b402ab89381619428ef.jpg",
         "paste-7efd881ceaec8f86ee01a1e17a807dc0c669aa81.jpg",
         "paste-8dc5a83f81a6d6b05a3b564ab36a708ec5946a37.jpg",
         "paste-8e5de0895f29ad8ac0c5814e92518b182f73f803.jpg",
         "paste-95e8626bce775ae849a78e25ca60baff713da4bb.jpg",
         "paste-ab065705de9b427fa7ffd567cfc378c411452f55.jpg",
+        "paste-b030b871066d1a13ffaba5e2f80886fe5e1f1785.jpg",
         "paste-c3a67bdba297b6ce24b02b6609c56443be7616ae.jpg",
         "paste-d0f6a7c7fa45d11a85035038ecba6a4a9110d1c5.jpg",
-        "paste-e78382aa413815091404ec7b66f1837fb5482eb5.jpg"
+        "paste-e78382aa413815091404ec7b66f1837fb5482eb5.jpg",
+        "paste-f4b0d5c794ea38011221da6ae6c363344ccc3a45.jpg",
+        "paste-f7b4a35b494e3c4630e334e8f08f1a92f455c470.jpg"
     ],
     "name": "Teorie::PSI",
     "note_models": [
@@ -358,7 +364,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Popiš OSI vrstvy",
+                "Vyjmenuj OSI vrstvy",
                 "Aplikační<div>Prezentační</div><div>Relační</div><div>Transportní</div><div>Síťová</div><div>Spojová</div><div>Fyzická</div>",
                 ""
             ],
@@ -450,7 +456,7 @@
             "__type__": "Note",
             "fields": [
                 "Jakým způsobem vypočítáme počet možných stanic v závislosti na délce prefixu L masky?",
-                "Pro nalezení minimálního&nbsp;\\(N\\), musí platit, že&nbsp;\\( K &lt;= 2^N \\)<br>Nechť&nbsp;\\(L = 32 - K\\)<div>Počet využitelných stanic v síti je&nbsp;\\(2^N - 3\\) (odebrána broadcast, adresa sítě, brána)</div>",
+                "Nechť&nbsp;\\(K = 32 - L\\)<br>Pro nalezení minimálního&nbsp;\\(N\\), musí platit, že&nbsp;\\( K &lt;= 2^N \\)<br><div>Počet využitelných stanic v síti je&nbsp;\\(2^N - 3\\) (odebrána broadcast, adresa sítě, brána)</div>",
                 ""
             ],
             "guid": "w0DgH6=j~<",
@@ -688,6 +694,214 @@
                 ""
             ],
             "guid": "QRe}y9&nH5",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš potvrzovací schéma: Jednotlivé potvrzování",
+                "<img src=\"paste-b030b871066d1a13ffaba5e2f80886fe5e1f1785.jpg\">",
+                ""
+            ],
+            "guid": "u<s6F`t%R>",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš potvrzovací schéma: Kontinuální potvrzování se selektivním opakováním",
+                "<img src=\"paste-f7b4a35b494e3c4630e334e8f08f1a92f455c470.jpg\">",
+                ""
+            ],
+            "guid": "pzsmw-Bn;1",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš potvrzovací schéma: Kontinuální potvrzování s návratem",
+                "<img src=\"paste-f4b0d5c794ea38011221da6ae6c363344ccc3a45.jpg\">",
+                ""
+            ],
+            "guid": "mk=TJZm9Aq",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš potvrzovací schéma: Klouzavé okénko",
+                "<img src=\"paste-4144de99a27b67cbcede20ef2db62a235a5bdc85.jpg\">",
+                ""
+            ],
+            "guid": "n;ra.p*+.(",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co slouží pro detecki chyb v rámci linkové vrstvy?",
+                "Hammingovy kódy",
+                ""
+            ],
+            "guid": "l=|:=Ag:#g",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to přepínač?",
+                "Zařízení, jehož funkcí je přepínání rámců.<div><br></div><div>Přepínání rámců znamená přijetí tohoto rámce, zpracování a odeslání rámce směrem k příjemci pomocí přepínací tabulky</div>",
+                ""
+            ],
+            "guid": "Dv)OEoAq-u",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaké jsou režimy práce přepínačů?",
+                "Store-And-Forward - přepínač přijme celý rámec před odesláním<div>Cut-Trough - přepínač přijme hlavičku, zkontroluje a odesílá zbytek okamžitě</div>",
+                ""
+            ],
+            "guid": "x`cg:8u/4R",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaký je rozdíl mezi mostem a přepínačem?",
+                "Most je jednodušší zařízení, nemá žádný buffer, může být i softwarový<div>Přepínač je složitější, má hodně portů, má HW podporu pro přepínání</div>",
+                ""
+            ],
+            "guid": "qI*H/Tb]bd",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš obecný formát rámce ethernetu",
+                "<img src=\"paste-096d697a06ef722129d5ae6bc9d38398ea89b52f.jpg\">",
+                ""
+            ],
+            "guid": "J.b!D_RI~m",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Z čeho se skládá MAC adresa v ethernetu?",
+                "<img src=\"paste-47dfa29ffb15d165065d49a734ed823e18f0a5b7.jpg\">",
+                ""
+            ],
+            "guid": "b${Lg/035n",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaká je všesměrová ( broadcast ) MAC?",
+                "FFFF FFFF",
+                ""
+            ],
+            "guid": "maun4.Jo;L",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kdy je potřeba autonegociace?",
+                "Při poškozém vodiči, nebo u zařízení které nemají stejnou verzi protokolu, novější se přizpůsobí starším",
+                ""
+            ],
+            "guid": "xc1NKz5UU6",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je autonegociace?",
+                "Metoda, kterou si vysílač a příjmač dohodnou parametry přenosu",
+                ""
+            ],
+            "guid": "R`Np+N2}x",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Obsahuje ethernet zaručení spolehlivého doručení dat?",
+                "Ne",
+                ""
+            ],
+            "guid": "~V[Ja,WlH",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je ethernetový příkaz PAUSE?",
+                "Pokud přepínač nestíhá, může vyslat příkaz PAUSE aby jeho sousedé zpomalili",
+                ""
+            ],
+            "guid": "P~3NUeqahH",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaký je rozdíl mezi přímým ( patch cord ) a skříženým ( crossover ) kabelem?",
+                "Crossover kabel není symetrický - příjem jedné strany je opačnou stranu vysíláním a naopak",
+                ""
+            ],
+            "guid": "P1E4,Ot@2x",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
             "tags": [
                 "psi-2-tyden"
