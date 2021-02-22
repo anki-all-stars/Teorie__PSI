@@ -65,11 +65,18 @@
         "paste-006047b03830c375dd9ed177432c2a50997bb056.jpg",
         "paste-0d68118a5afe0d641c402ae47519bc238c39da9f.jpg",
         "paste-303606008db6ffd914db43f45a3f8dcab4823cc0.jpg",
+        "paste-3401187d23fa8434d15fa4f2c54e4e1d9fbcbd4e.jpg",
         "paste-35957bff68def88904b6547606cfa6ad5234eb83.jpg",
         "paste-3bc38dd94610bd03ff683efa0249378b99517b03.jpg",
+        "paste-7199091a72e7c6b8d0d80b402ab89381619428ef.jpg",
+        "paste-7efd881ceaec8f86ee01a1e17a807dc0c669aa81.jpg",
         "paste-8dc5a83f81a6d6b05a3b564ab36a708ec5946a37.jpg",
         "paste-8e5de0895f29ad8ac0c5814e92518b182f73f803.jpg",
-        "paste-ab065705de9b427fa7ffd567cfc378c411452f55.jpg"
+        "paste-95e8626bce775ae849a78e25ca60baff713da4bb.jpg",
+        "paste-ab065705de9b427fa7ffd567cfc378c411452f55.jpg",
+        "paste-c3a67bdba297b6ce24b02b6609c56443be7616ae.jpg",
+        "paste-d0f6a7c7fa45d11a85035038ecba6a4a9110d1c5.jpg",
+        "paste-e78382aa413815091404ec7b66f1837fb5482eb5.jpg"
     ],
     "name": "Teorie::PSI",
     "note_models": [
@@ -120,7 +127,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "osy-3-tyden"
+                "psi-2-tyden"
             ],
             "tmpls": [
                 {
@@ -450,6 +457,240 @@
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
             "tags": [
                 "psi-1-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaký je účel linkové vrstvy?",
+                "Přenášení dat v rámci LAN či MAN sítě.",
+                ""
+            ],
+            "guid": "s&L_Sz7ULl",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jakou základní přenášecí jednotku má linková vrstva?",
+                "Rámec",
+                ""
+            ],
+            "guid": "J63T>;*Q*#",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaké části má rámec?",
+                "<img src=\"paste-7efd881ceaec8f86ee01a1e17a807dc0c669aa81.jpg\">",
+                ""
+            ],
+            "guid": "trYQ4bK#:4",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co určuje maximální velikost rámce?",
+                "MTU - Maximum Transfer Unit - závislé na typu a chybovosti použitého média",
+                ""
+            ],
+            "guid": "r5^{Ld5WvY",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co zajišťuje MAC podvrstva?",
+                "Přístup k médiu<div>Sdílení média pomocí multiplexu, popř. přístupových metod</div><div>Filtrování MAC adres</div>",
+                ""
+            ],
+            "guid": "xH%s>aU3Mf",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Je MAC podvrstva závislá na použitém médiu?",
+                "Ano",
+                ""
+            ],
+            "guid": "uA{vUL}7{z",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co zajištujě LLC podvrstva?",
+                "Řízení toku, kontrolu chyb<div>Rozdělení toku z vyšších vrstev do rámců ( framing )&nbsp;</div><div>=&gt; Musí určovat velikost rámce, konec rámce</div>",
+                ""
+            ],
+            "guid": "G5jnLe2a+v",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Je LLC vrstva závislá na použitém médiu?",
+                "Ne",
+                ""
+            ],
+            "guid": "KJCmewfA03",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to multiplex?",
+                "Technika umožňující současné použití stejného přenosového média více účastníky",
+                ""
+            ],
+            "guid": "n$z9eAi<]8",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je kolizní doména?",
+                "Je množina stanic, které sdílí společné médium. Současné vysílání 2 anebo více stanic vede ke kolizi.",
+                ""
+            ],
+            "guid": "q5GaNh9#4o",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jakým způsobem dělí přístup k médiu časový multiplex? ( TDMA )",
+                "Podle časových intervalů, v jednom konkrétním časovém okamžiku, má přístup k médiu pouze jeden účastník.<div><img src=\"paste-7199091a72e7c6b8d0d80b402ab89381619428ef.jpg\"><br></div>",
+                ""
+            ],
+            "guid": "m$Ox14R-!B",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jakým způsobem dělí médium frekvenční multiplex? ( FDMA )",
+                "Pomocí frekvenčních pásem - každý účasník používá jiné frekvenční pásmo - díky tomu se neovlivňují<div><img src=\"paste-d0f6a7c7fa45d11a85035038ecba6a4a9110d1c5.jpg\"><br></div>",
+                ""
+            ],
+            "guid": "PU/R$n?b-8",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kódový multiplex? ( CDMA )",
+                "Médium využívaí v konkrétním časovém okamžiku více účastníků, ale každý účastník zpracovává pouze to, čemu rozumí, co je v jeho kódu.<div><img src=\"paste-c3a67bdba297b6ce24b02b6609c56443be7616ae.jpg\"><br></div>",
+                ""
+            ],
+            "guid": "euX_@9_ZT5",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Prostorový multiplex? ( SDMA )",
+                "Médum současně využívá několik různých účastníků díky tomu, že konrkétní vysílání prochází různými vzájemně se nepřekrývajícími směry.<div><img src=\"paste-3401187d23fa8434d15fa4f2c54e4e1d9fbcbd4e.jpg\"><br></div>",
+                ""
+            ],
+            "guid": "s<:X96F,E^",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to broadcast doména?",
+                "Je množina všech stanic, kterým je doručen rámec s všesmerovou adresou. Jednotlivé broadcastové domény od sebe oddělují až zařízení pracující na síťové (3.) vrstvě OSY modelu ( směrovače )&nbsp;",
+                ""
+            ],
+            "guid": "sB|/WA:_eN",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nakresli princip metody CSMA/CD",
+                "<img src=\"paste-e78382aa413815091404ec7b66f1837fb5482eb5.jpg\">",
+                ""
+            ],
+            "guid": "JLb~`)*u/I",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nakresli princip metody CSMA/CA",
+                "<img src=\"paste-95e8626bce775ae849a78e25ca60baff713da4bb.jpg\">",
+                ""
+            ],
+            "guid": "FqPMfJnS-W",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je kolizní okénko?",
+                "KO je doba od začátku vysílání, behem kterého se rozšíří signál po médiu. V tomto čase mohou začít vysílat i další stanice, než k nim dorazí informace, že vysílá někdo jiný.",
+                ""
+            ],
+            "guid": "QRe}y9&nH5",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-2-tyden"
             ]
         }
     ]
