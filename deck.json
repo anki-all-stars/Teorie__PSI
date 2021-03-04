@@ -51,7 +51,7 @@
                 "ivlFct": 1.0,
                 "maxIvl": 36500,
                 "minSpace": 1,
-                "perDay": 50
+                "perDay": 100
             },
             "timer": 0
         }
@@ -133,7 +133,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "psi-2-tyden"
+                "bez-1-tyden"
             ],
             "tmpls": [
                 {
@@ -391,7 +391,7 @@
             "__type__": "Note",
             "fields": [
                 "Definuj síťovou masku",
-                "Síťová maska je bitová maska o stejné velikosti jako IP adresa, která vujadřuje jakou část IP adresy mají všichni členové dané sítě společnou",
+                "Síťová maska je bitová maska o stejné velikosti jako IP adresa, která vyjadřuje jakou část IP adresy mají všichni členové dané sítě společnou",
                 ""
             ],
             "guid": "p~1qsD`Vs@",
@@ -520,7 +520,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Co zajišťuje MAC podvrstva?",
+                "Co zajišťuje MAC podvrstva? (3)",
                 "Přístup k médiu<div>Sdílení média pomocí multiplexu, popř. přístupových metod</div><div>Filtrování MAC adres</div>",
                 ""
             ],
