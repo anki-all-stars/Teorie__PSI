@@ -63,6 +63,7 @@
     "media_files": [
         "Isa4AaJm7cZ78h6AnVnaQhIyMxM9Q-BlJlKZ2EGaPdo.original.fullsize.png",
         "paste-006047b03830c375dd9ed177432c2a50997bb056.jpg",
+        "paste-018086df6d06a6c249e91e1ebf4fe5c082867dfa.jpg",
         "paste-096d697a06ef722129d5ae6bc9d38398ea89b52f.jpg",
         "paste-0d68118a5afe0d641c402ae47519bc238c39da9f.jpg",
         "paste-303606008db6ffd914db43f45a3f8dcab4823cc0.jpg",
@@ -70,14 +71,22 @@
         "paste-35957bff68def88904b6547606cfa6ad5234eb83.jpg",
         "paste-3bc38dd94610bd03ff683efa0249378b99517b03.jpg",
         "paste-4144de99a27b67cbcede20ef2db62a235a5bdc85.jpg",
+        "paste-473cec913d01ed0b1a5e6a8371f213fe976f4281.jpg",
         "paste-47dfa29ffb15d165065d49a734ed823e18f0a5b7.jpg",
+        "paste-49b8cd20f229124cb613764fa59f1bbe60864808.jpg",
+        "paste-5ec06355dd1a97f233797b7143edae7fd1bd38b9.jpg",
         "paste-7199091a72e7c6b8d0d80b402ab89381619428ef.jpg",
         "paste-7efd881ceaec8f86ee01a1e17a807dc0c669aa81.jpg",
+        "paste-8823bca60b54e007b54464f49911847694ecfb51.jpg",
         "paste-8dc5a83f81a6d6b05a3b564ab36a708ec5946a37.jpg",
         "paste-8e5de0895f29ad8ac0c5814e92518b182f73f803.jpg",
+        "paste-919510c1b9542f8429e4ca1a864adc852252633b.jpg",
         "paste-95e8626bce775ae849a78e25ca60baff713da4bb.jpg",
+        "paste-a5cd7697f2113a43946402d043edee0322b703e6.jpg",
+        "paste-a60bd487862a6f1dbe025b99c2156288b1234918.jpg",
         "paste-ab065705de9b427fa7ffd567cfc378c411452f55.jpg",
         "paste-b030b871066d1a13ffaba5e2f80886fe5e1f1785.jpg",
+        "paste-bc512d146d36a790c83212abcc6502cd113ed3b9.jpg",
         "paste-c3a67bdba297b6ce24b02b6609c56443be7616ae.jpg",
         "paste-d0f6a7c7fa45d11a85035038ecba6a4a9110d1c5.jpg",
         "paste-e78382aa413815091404ec7b66f1837fb5482eb5.jpg",
@@ -133,7 +142,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "bez-1-tyden"
+                "psi-4-tyden"
             ],
             "tmpls": [
                 {
@@ -905,6 +914,305 @@
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
             "tags": [
                 "psi-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš datagram IPv6",
+                "<img src=\"paste-473cec913d01ed0b1a5e6a8371f213fe976f4281.jpg\">",
+                ""
+            ],
+            "guid": "HPmdr@(#m]",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je zřetězování hlaviček v IPv6?",
+                "V IPv6 každá hlavička reprezentuje samotný blok dat a pro jejich spojování se používá hlavička \"next header\". Výhodou j přenášení pouze užitečných informací",
+                ""
+            ],
+            "guid": "tf$,jlB8cI",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj IPv6 unicast adresu",
+                "Určené jednoznačnému příjemci",
+                ""
+            ],
+            "guid": "dT/!2K6EG=",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj IPv6 multicast adresu",
+                "určeny pro určitou skupinu příjemců",
+                ""
+            ],
+            "guid": "Jr{Qj1/U&,",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj IPv6 anycast adresu",
+                "doručí se pouze jedinému členu určité skupiny (alespoň někomu)",
+                ""
+            ],
+            "guid": "py!Ay@,f/$",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Má IPv6 multicast adresy?",
+                "Ano",
+                ""
+            ],
+            "guid": "C<_s(1;=*c",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Má IPv6 broadcast adresy?",
+                "Ne",
+                ""
+            ],
+            "guid": "o;0A-8gB@",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak vypadá IPv6 kompatibilní režim s IPv4 adresou A.B.C.D?",
+                "::ffff:A:B:C:D<div>Ale A, B, C, D musí být zapsané hexadecimálně</div>",
+                ""
+            ],
+            "guid": "kan|*C?=0|",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaká je loopback adresa v IPv6?",
+                "::1/128",
+                ""
+            ],
+            "guid": "EFE4bgT.}#",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak odvodit IPv6 adresu z MAC adresy?",
+                "<div>Horních 64 bitů je adresa sítě.</div><div>Spodních 64 bitů je adresa zaříení, odvozena pomocí:</div><img src=\"paste-5ec06355dd1a97f233797b7143edae7fd1bd38b9.jpg\">",
+                ""
+            ],
+            "guid": "o+N)4]v,bT",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaké jsou lokální IPv6 adresy?",
+                "<img src=\"paste-49b8cd20f229124cb613764fa59f1bbe60864808.jpg\">",
+                ""
+            ],
+            "guid": "Pc^N/F)pe-",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak vytvořit IPv6 multicast adresu?",
+                "<img src=\"paste-bc512d146d36a790c83212abcc6502cd113ed3b9.jpg\">",
+                ""
+            ],
+            "guid": "GIqzGvfdy^",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "K čemu se využívá AnyCast ( v IPv6 ) ?",
+                "Např. DNS",
+                ""
+            ],
+            "guid": "BaA(,b5T8<",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaké funkce má ICMP IPv6?",
+                "Testování chybových stavů, dosažitelnost, výměna provozních zařízení, <b>objevování sousedů</b>",
+                ""
+            ],
+            "guid": "MF,sO?n/br",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je objevování sousedů v IPv6?",
+                "Náhrada protokolu ARP<div>Podporuje:</div><div>Hledání směrovačů, přesměrování, zjišťování linkových adres, DHCP, ...</div>",
+                ""
+            ],
+            "guid": "A~*W=0IzB*",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak probíhá výzva směrovači v IPv6?",
+                "Klient, který se chce připojit do sítě pošle výzvu směrovači<div>Směrovač odpoví prostřednictvím ohlášení směrovače</div><div><br></div><div><img src=\"paste-a5cd7697f2113a43946402d043edee0322b703e6.jpg\"><br></div>",
+                ""
+            ],
+            "guid": "Ifo{b&3,1K",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak probíhá zjištění linkové adresy u IPv6?",
+                "Pomocí výzvy sousedovi.&nbsp;<div>Používá prefix ff02::1:f00:/1004</div><div><br></div><div>1. Konstrukce adresy</div><div>2. Speciální ICMP zpráva -&gt; výzva sousedovi</div><div>3. Jinde proběhne přijmutí a následné ohlášení souseda</div><div>4. Přijetí linkové adresy souseda a uložení do cache</div>",
+                ""
+            ],
+            "guid": "HnQ}AxQuf~",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jaké jsou stavy adres v tabulce sousedů IPv6?",
+                "<img src=\"paste-8823bca60b54e007b54464f49911847694ecfb51.jpg\">",
+                ""
+            ],
+            "guid": "rj2%mwVrMn",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co zařizuje IPv6 inverzní objevování sousedů?",
+                "Jedná se o inverzní mechanismus objevování sousedů<div><br></div><div>Tj. linková adresa nějakého zařízení je známá a potřebujme znát odpovídající IPV6</div>",
+                ""
+            ],
+            "guid": "cZ}`m{r6Hu",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co jsou implicitní směrovače u IPv6?",
+                "IPv6 uzly jsou většinou schopny směrovat samy, ale u naprosto neznámé adresy musí mít nějaké východisko - implicitní směrovač<div><br></div><div><img src=\"paste-919510c1b9542f8429e4ca1a864adc852252633b.jpg\"><br></div>",
+                ""
+            ],
+            "guid": "v;t}IVt_(9",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš proces směrování u IPv6",
+                "<img src=\"paste-018086df6d06a6c249e91e1ebf4fe5c082867dfa.jpg\">",
+                ""
+            ],
+            "guid": "u6:ykStK40",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co přiděluje DHCPv6 server?",
+                "Pouze adresu",
+                ""
+            ],
+            "guid": "G,5G.FX%;(",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak probíhá DHCPv6 komunikace?",
+                "<img src=\"paste-a60bd487862a6f1dbe025b99c2156288b1234918.jpg\">",
+                ""
+            ],
+            "guid": "Ak?}pr,x8b",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "psi-4-tyden"
             ]
         }
     ]
