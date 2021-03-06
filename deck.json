@@ -945,7 +945,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Definuj IPv6 unicast adresu",
+                "Definuj příjemce IPv6 unicast adresu",
                 "Určené jednoznačnému příjemci",
                 ""
             ],
@@ -958,7 +958,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Definuj IPv6 multicast adresu",
+                "Definuj příjemce IPv6 multicastu",
                 "určeny pro určitou skupinu příjemců",
                 ""
             ],
@@ -971,7 +971,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Definuj IPv6 anycast adresu",
+                "Definuj příjemce IPv6 anycast",
                 "doručí se pouze jedinému členu určité skupiny (alespoň někomu)",
                 ""
             ],
@@ -1114,7 +1114,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Jak probíhá výzva směrovači v IPv6?",
+                "Jak probíhá výzva směrovači v IPv6? Co se stane potom?",
                 "Klient, který se chce připojit do sítě pošle výzvu směrovači<div>Směrovač odpoví prostřednictvím ohlášení směrovače</div><div><br></div><div><img src=\"paste-a5cd7697f2113a43946402d043edee0322b703e6.jpg\"><br></div>",
                 ""
             ],
@@ -1154,7 +1154,7 @@
             "__type__": "Note",
             "fields": [
                 "Co zařizuje IPv6 inverzní objevování sousedů?",
-                "Jedná se o inverzní mechanismus objevování sousedů<div><br></div><div>Tj. linková adresa nějakého zařízení je známá a potřebujme znát odpovídající IPV6</div>",
+                "Jedná se o inverzní mechanismus objevování sousedů<div><br></div><div>Tj. linková adresa nějakého zařízení je známá a potřebujme znát odpovídající IPv6</div>",
                 ""
             ],
             "guid": "cZ}`m{r6Hu",
@@ -1181,7 +1181,7 @@
             "fields": [
                 "Popiš proces směrování u IPv6",
                 "<img src=\"paste-018086df6d06a6c249e91e1ebf4fe5c082867dfa.jpg\">",
-                ""
+                "TODO improve this image"
             ],
             "guid": "u6:ykStK40",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
